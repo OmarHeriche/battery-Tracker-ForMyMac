@@ -6,7 +6,7 @@ const percentageOfBattery = (callBack) => {
       console.log(err);
       return;
     }
-    outPut = outPut.split("\t")[1].split(";")[0];
+    outPut = outPut.split("\t")[1].split(";")[0];//!this have to change
     // console.log(outPut);
     callBack(outPut);
   });
